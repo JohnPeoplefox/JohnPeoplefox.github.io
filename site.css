@@ -12,3 +12,9 @@ body
   padding: 20px;
   display: table-cell;
 }
+
+p
+{
+  padding-top: 10px;
+  line-height: 120%;
+}
