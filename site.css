@@ -29,5 +29,6 @@ p::first-letter
 
 pre
 {
-  background-color: Gainsboro;
+  background-color: #E6E6E6;
+  padding-left: 10px;
 }
