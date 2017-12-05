@@ -29,6 +29,5 @@ p::first-letter
 
 pre
 {
-  font-family: "Courier New";
-  font-size: 100%;
+  background-color: Gainsboro;
 }
