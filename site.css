@@ -20,7 +20,7 @@ p
   text-align: justify;
 }
 
-p:first-child:first-letter 
+p::first-letter 
 {
   color: #903; 
   font-family: Georgia;
