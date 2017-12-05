@@ -1,2 +1,2 @@
-# JohnPeopleFox.github.io
+# JohnPeoplefox.github.io
 Captain's Log
