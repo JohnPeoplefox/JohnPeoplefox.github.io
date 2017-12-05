@@ -20,7 +20,7 @@ p
   text-align: justify;
 }
 
-p::first-word 
+p::first-letter 
 {
   font-weight: bold;
   font-family: Georgia;
