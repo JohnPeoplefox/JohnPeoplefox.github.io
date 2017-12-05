@@ -19,3 +19,10 @@ p
   line-height: 140%;
   text-align: justify;
 }
+
+p:first-child:first-letter 
+{
+  color: #903; 
+  font-family: Georgia;
+  initial-letter: 2;
+}
