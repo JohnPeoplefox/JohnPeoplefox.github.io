@@ -20,9 +20,9 @@ p
   text-align: justify;
 }
 
-p::first-letter 
+p::first-word 
 {
   font-weight: bold;
   font-family: Georgia;
-  font-size: 120%;
+  font-size: 105%;
 }
