@@ -22,7 +22,7 @@ p
 
 p::first-letter 
 {
-  color: #903; 
+  font-weight: bold;
   font-family: Georgia;
-  initial-letter: 2;
+  font-size: 120%;
 }
