@@ -9,7 +9,7 @@ body
   min-width: 100px;
   max-width: 800px;
   padding: 20px;
-  display: table-cell;
+  display: table;
 }
 
 .column 
@@ -25,14 +25,6 @@ body
   content: "";
   display: table;
   clear: both;
-}
-
-@media (max-width: 600px) 
-{
-  .column 
-  {
-    width: 100%;
-  }
 }
 
 p
