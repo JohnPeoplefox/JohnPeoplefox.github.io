@@ -6,16 +6,16 @@ html
 
 body 
 {
-  margin: 0;
   min-width: 100px;
   max-width: 800px;
-  padding: 20px;    
+  padding: 20px;
+  display: table-cell;
 }
 
 .column 
 {
   float: left;
-  width: 25%;
+  width: 55%;
   min-width: 380px;
   padding: 10px;
 }
