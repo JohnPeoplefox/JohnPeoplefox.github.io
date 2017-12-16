@@ -1,6 +1,5 @@
 html
 {
-  display: table;
   margin: auto;
 }
 
@@ -18,12 +17,11 @@ body
   width: 45%;
   min-width: 95px;
   padding: 10px;
+  display: flex;
 }
 
 .row:after 
 {
-  content: "";
-  display: table;
   clear: both;
 }
 
