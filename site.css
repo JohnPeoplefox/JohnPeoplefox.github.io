@@ -18,7 +18,7 @@ body
   width: 45%;
   min-width: 95px;
   padding: 10px;
-  display: flex;
+  display: table;
 }
 
 .row:after 
