@@ -6,7 +6,7 @@ html
 
 body 
 {
-  min-width: 100px;
+  min-width: 200px;
   max-width: 800px;
   padding: 20px;
   display: table;
@@ -16,7 +16,7 @@ body
 {
   float: left;
   width: 45%;
-  min-width: 95px;
+  min-width: 195px;
   padding: 10px;
   display: inline-block;
 }
