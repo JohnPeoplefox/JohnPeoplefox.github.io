@@ -1,60 +1,29 @@
-
-* 
-{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-html
-{
-  display: table;
-  margin: auto;
+body {
+    margin: 0;
 }
 
-body
-{
-  min-width: 100px;
-  max-width: 800px;
-  padding: 20px;
-  display: table-cell;
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
-p
-{
-  padding-top: 10px;
-  line-height: 140%;
-  text-align: justify;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-p::first-letter 
-{
-  font-weight: bold;
-  font-family: Georgia;
-  font-size: 105%;
-}
-
-pre
-{
-  background-color: #F0F0F0;
-  padding-left: 10px;
-}
-
-.column 
-{
-  float: left;
-  width: 25%;
-}
-
-.row:after 
-{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media (max-width: 800px) 
-{
-  .column 
-  {
-    width: 100%;
-  }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
