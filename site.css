@@ -32,3 +32,16 @@ pre
   background-color: #F0F0F0;
   padding-left: 10px;
 }
+
+.column 
+{
+  float: left;
+  width: 25%;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
