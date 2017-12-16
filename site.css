@@ -1,4 +1,9 @@
 
+* 
+{
+  box-sizing: border-box;
+}
+
 html
 {
   display: table;
@@ -44,4 +49,12 @@ pre
   content: "";
   display: table;
   clear: both;
+}
+
+@media (max-width: 800px) 
+{
+  .column 
+  {
+    width: 100%;
+  }
 }
