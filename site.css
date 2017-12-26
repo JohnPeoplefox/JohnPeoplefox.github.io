@@ -45,6 +45,11 @@ p::first-letter
   font-size: 105%;
 }
 
+canvas#the-graph
+{
+  border:1px solid #d3d3d3;
+}
+
 pre
 {
   background-color: #F0F0F0;
