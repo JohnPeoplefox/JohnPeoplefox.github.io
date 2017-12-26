@@ -12,6 +12,11 @@ body
   display: table;
 }
 
+.center
+{
+  text-align: center;
+}
+
 .column 
 {
   float: left;
