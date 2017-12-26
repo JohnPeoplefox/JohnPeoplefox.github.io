@@ -12,9 +12,10 @@ body
   display: table;
 }
 
-.center
+.home
 {
   text-align: center;
+  margin-top: 20px;
 }
 
 .column 
