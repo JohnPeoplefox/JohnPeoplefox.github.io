@@ -34,6 +34,7 @@ body
 
 p
 {
+  font-family: 'VT323', monospace;
   padding-top: 20px;
   line-height: 140%;
 }
