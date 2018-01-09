@@ -54,8 +54,6 @@ pre
 {
   font-family: 'VT323', monospace;
   font-size: 1.3em;
-  /*background-color: #F0F0F0;*/
-  color: #FFBF00;
-  background-color: black;
+  background-color: #F0F0F0;
   padding-left: 10px;
 }
