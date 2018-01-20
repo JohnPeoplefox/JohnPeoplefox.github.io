@@ -1,3 +1,5 @@
+alert("I am an alert box!");
+
 var Greeting = React.createClass({
   render: function() {
     return (
