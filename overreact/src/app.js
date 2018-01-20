@@ -1,5 +1,5 @@
 
 ReactDOM.render(
-  <h1>Hello, world! from React</h1>,
+  <h2>Hello, world! from React</h2>,
   document.getElementById('root')
 );
